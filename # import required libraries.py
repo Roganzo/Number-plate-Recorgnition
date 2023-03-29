@@ -28,4 +28,4 @@ for (x,y,w,h) in plates:
    cv2.imshow('Number Plate', gray_plates)
    cv2.imshow('Number Plate Image', img)
    cv2.waitKey(0)
-cv2.destroyAllWindows
+cv2.destroyAllWindows()
